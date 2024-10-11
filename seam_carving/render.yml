@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: seam-carving-app
+    env: docker
+    buildCommand: ""
+    startCommand: "./seam_carving"
+    dockerfilePath: Dockerfile
+    port: 8080
+    autoDeploy: true
+
